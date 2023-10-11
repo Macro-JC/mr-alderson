@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Starfield from '../components/starfield.astro';
+import Header from '../components/Header.astro'
+import Sudoku from '../components/Sudoku.jsx'
+---
+
+<Layout title="Feliz Cumpleaños Mr alderson">
+	<Starfield />
+	<div class="h-screen flex flex-col py-10 justify-between">
+		<Header />
+		<div class="">
+			<Sudoku client:load />
+		</div>
+	</div>
+</Layout>

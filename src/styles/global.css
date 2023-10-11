@@ -1,0 +1,4 @@
+.gradient-text {
+    @apply bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-red-500 via-red-800 to-red-800;
+}
